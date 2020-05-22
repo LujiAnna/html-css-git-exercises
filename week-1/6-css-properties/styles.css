@@ -1,1 +1,28 @@
 /* Add your CSS code below */
+/* 
+
+left-border
+
+Make yesterday's message partially transparent to show it is old.
+Increase the space between each line in a message. */
+body {
+  line-height: 1.9;
+}
+
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.message--unread {
+  border-left: solid 1px blue;
+}
+
+.message--old {
+  opacity: 0.5;
+}
